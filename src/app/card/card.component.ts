@@ -7,6 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
 
+  tipo = {
+    infos: {
+      plano: 'Simples',
+      preco: 100,
+    }
+  }
+
   constructor() { }
 
   ngOnInit(): void {
