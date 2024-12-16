@@ -2,7 +2,7 @@
 
 .card {
     max-width: 350px;
-    background-color: #fd7557;
+    background-color: #A020F0;
     border-radius: 25px;
     padding: 30px;
     font-family: 'poppins', 'sans-serif';
@@ -10,7 +10,7 @@
     &__item {
         padding: 10px;
     }
-
+    
     &__plan {
         font-size: 22px;
     }
@@ -28,5 +28,6 @@
         background-color: white;
         cursor: pointer;
         font-weight: bold;
+
     }
 }
