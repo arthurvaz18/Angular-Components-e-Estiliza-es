@@ -12,7 +12,7 @@ describe('CardComponent', () => {
     })
     .compileComponents();
   });
-
+  //ola
   beforeEach(() => {
     fixture = TestBed.createComponent(CardComponent);
     component = fixture.componentInstance;
