@@ -1,10 +1,11 @@
-/*passando este comentario*/
+@import "../../styles.scss";  
+
 .card-cancel-button {
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
     border-radius: 25px;
-    background-color: yellow;
+    background-color: $minhaCor;
     cursor: pointer;
     font-weight: bold;
     padding: 10px;
