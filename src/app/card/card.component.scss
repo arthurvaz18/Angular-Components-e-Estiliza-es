@@ -21,16 +21,11 @@
     }
 
 }
-::ng-deep .cancel-button .card-cancel-button {
-    background-color: brown !important;
+:host::ng-deep app-card-button-cancel .card-cancel-button {
+    background-color: yellow !important;
 }
-/* 
-::ng-deep é um seletor no Angular usado para aplicar estilos a elementos filhos
-ignorando o encapsulamento de estilos do componente. Ele permite estilizar elementos
-internos de outros componentes, mas está depreciado e deve ser usado apenas 
-quando necessário. -->
-
-<!--#: Seleciona elementos com um ID específico.-->
-<!--.: Seleciona elementos com uma classe específica.-->
-
-*/
+/*
+é usado para aplicar estilos aos elementos dentro do componente, mesmo quando o 
+Angular usa encapsulamento de estilo
+ (o que normalmente isola os estilos do componente do restante da aplicação).
+ */
