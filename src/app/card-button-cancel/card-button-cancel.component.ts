@@ -4,9 +4,8 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-card-button-cancel',
   templateUrl: './card-button-cancel.component.html',
   styleUrls: ['./card-button-cancel.component.scss'],
-  
 
-})
+}) 
 export class CardButtonCancelComponent implements OnInit {
 
   constructor() { }
