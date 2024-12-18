@@ -21,11 +21,3 @@
     }
 
 }
-:host::ng-deep app-card-button-cancel .card-cancel-button {
-    background-color: yellow !important;
-}
-/*
-é usado para aplicar estilos aos elementos dentro do componente, mesmo quando o 
-Angular usa encapsulamento de estilo
- (o que normalmente isola os estilos do componente do restante da aplicação).
- */
