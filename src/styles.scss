@@ -2,5 +2,9 @@ $minhaCor: brown;
 
 @import "./style/global-overrides";
 
+.global{
+    background-color: rgb(116, 0, 120);
+}
+
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
