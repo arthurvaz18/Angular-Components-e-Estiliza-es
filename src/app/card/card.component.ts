@@ -13,8 +13,7 @@ interface IInfos {
   selector: 'app-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
-  encapsulation: ViewEncapsulation.Emulated,
-  /*Na verdade este é o View Encapsulation EMULATED */
+  encapsulation: ViewEncapsulation.ShadowDom,
 })
 export class CardComponent implements OnInit {
   //@ts-ignore

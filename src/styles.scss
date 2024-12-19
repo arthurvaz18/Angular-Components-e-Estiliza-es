@@ -2,13 +2,10 @@ $minhaCor: brown;
 
 @import "./style/global-overrides";
 
-.emulated {
-    background-color:brown !important;
-    border-radius: 20px;
-    color: white;
-    text-align: center;
-    
-}
+//.card-cancel-button {
+  //  background-color: rgb(5, 152, 175);
+//}
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
