@@ -14,6 +14,7 @@ interface IInfos {
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
   encapsulation: ViewEncapsulation.Emulated,
+  /*Na verdade este é o View Encapsulation EMULATED */
 })
 export class CardComponent implements OnInit {
   //@ts-ignore
