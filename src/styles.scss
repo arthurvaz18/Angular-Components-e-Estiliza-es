@@ -2,8 +2,12 @@ $minhaCor: brown;
 
 @import "./style/global-overrides";
 
-.global{
-    background-color: rgb(116, 0, 120);
+.emulated {
+    background-color:brown !important;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    
 }
 
 html, body { height: 100%; }
