@@ -6,6 +6,17 @@ $minhaCor: brown;
   //  background-color: rgb(5, 152, 175);
 //}
 
+//[_ngcontent-ng-c1705991100]--Alera o slider do card plano simples
+mat-slider.sliderSimples .mdc-slider__track--active_fill {
+  border-color: yellow !important;
+}
+
+//[_ngcontent-ng-c832882673] --Altera o slider do card plano Completo
+mat-slider.sliderCompleto .mdc-slider__track--active_fill {
+  border-color:white !important;
+
+
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+}

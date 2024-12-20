@@ -19,7 +19,7 @@ export class CardRoxoComponent implements OnInit {
   //@ts-ignore
   plano: IPlano = {
     infos: {
-      tipo: 'Simples',
+      tipo: 'Completo',
       preco: 200,
     },
   };
