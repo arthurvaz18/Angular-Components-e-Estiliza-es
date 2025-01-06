@@ -1,4 +1,4 @@
-import { Component, OnInit, ViewEncapsulation } from '@angular/core';
+import { Component, Input,} from '@angular/core';
 
 interface IPlano {
   infos: IInfos;
@@ -15,18 +15,10 @@ interface IInfos {
   styleUrls: ['./card.component.scss'],
   
 })
-export class CardComponent implements OnInit {
-  //@ts-ignore
-  plano: IPlano = {
-    infos: {
-      tipo: 'Simples',
-      preco: 100,
-    },
-  };
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+export class CardComponent {
+  @Input('planTypeAlias') planType: string = '';
+  @Input({required: true, alias: 'planPriceAlias'}) planPrice: number = 0;
 
 }
+
+
