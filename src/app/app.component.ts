@@ -9,4 +9,9 @@ export class AppComponent {
   title = 'projeto-componets';
   cardPlanType = 'Simples';
   cardPlanPrice = 100;
+
+  handlePlanType(text: string){
+    this.cardPlanType = text;
+  }
 }
+
