@@ -1,7 +1,8 @@
 <div class="card">
     <div class="card__plan card__item">Plano <b> {{ planType }}</b></div>
     <div class="card__price cart__item"> {{ planPrice }},00/Mês</div>
-    <app-card-button (buttonClickEmitterAlias)="buttonClicked($event)"></app-card-button>
+    <app-card-button (buttonClickEmitterAlias)="buttonClicked($event)"
+    buttonDisabled></app-card-button>
     
 
 
